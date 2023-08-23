@@ -1,5 +1,4 @@
 #include "monty.h"
-global_var var_global;
 /**
  * main - driver function of the monty program
  * @ac: int number of the arguments
