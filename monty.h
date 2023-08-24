@@ -1,6 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
-
+#define _POSIX_C_SOURCE 200809L
 #include <string.h>
 #include <stddef.h>
 #include <stdlib.h>
@@ -62,6 +62,8 @@ stack_t *add_node(stack_t **head, const int g);
 void push(stack_t **stack, unsigned int line);
 
 
+
+ 
 extern char *ops[];
 
 #endif /* MONTY_H */
