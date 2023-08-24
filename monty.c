@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "monty.h"
 
 char *ops[] = {NULL, NULL, "stack", NULL};
