@@ -124,6 +124,7 @@ if (check != 1)
 {
 fprintf(stderr, "L%u: instruction not found %s\n", line, ops[0]);
 exit(EXIT_FAILURE);
+
 ops[3] = "ERROR";
 return;
 }
